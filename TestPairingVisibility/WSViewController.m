@@ -7,6 +7,7 @@
 //
 
 #import "WSViewController.h"
+#import <ExternalAccessory/ExternalAccessory.h>
 
 @interface WSViewController ()
 
@@ -24,6 +25,17 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)pairTapped:(id)sender {
+    [[EAAccessoryManager sharedAccessoryManager] showBluetoothAccessoryPickerWithNameFilter:nil
+                                                                                 completion:^(NSError *error) {
+            if (error) {
+                NSLog(@"Exited pairing mode with error: %@", [error localizedDescription]);
+            } else {
+                NSLog(@"Exited pairing mode.");
+            }
+    }];
 }
 
 @end

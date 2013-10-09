@@ -21,6 +21,7 @@
 		D0AC6AF417CA60A60089BC3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AC6AD617CA60A60089BC3D /* UIKit.framework */; };
 		D0AC6AFC17CA60A60089BC3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0AC6AFA17CA60A60089BC3D /* InfoPlist.strings */; };
 		D0AC6AFE17CA60A60089BC3D /* TestPairingVisibilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AC6AFD17CA60A60089BC3D /* TestPairingVisibilityTests.m */; };
+		D0AC6B0917CA64950089BC3D /* WSPairingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AC6B0817CA64950089BC3D /* WSPairingTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D0AC6AF917CA60A60089BC3D /* TestPairingVisibilityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestPairingVisibilityTests-Info.plist"; sourceTree = "<group>"; };
 		D0AC6AFB17CA60A60089BC3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D0AC6AFD17CA60A60089BC3D /* TestPairingVisibilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPairingVisibilityTests.m; sourceTree = "<group>"; };
+		D0AC6B0717CA64950089BC3D /* WSPairingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPairingTableViewController.h; sourceTree = "<group>"; };
+		D0AC6B0817CA64950089BC3D /* WSPairingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPairingTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				D0AC6AE817CA60A60089BC3D /* WSViewController.m */,
 				D0AC6AEA17CA60A60089BC3D /* Images.xcassets */,
 				D0AC6AD917CA60A60089BC3D /* Supporting Files */,
+				D0AC6B0717CA64950089BC3D /* WSPairingTableViewController.h */,
+				D0AC6B0817CA64950089BC3D /* WSPairingTableViewController.m */,
 			);
 			path = TestPairingVisibility;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0AC6B0917CA64950089BC3D /* WSPairingTableViewController.m in Sources */,
 				D0AC6AE317CA60A60089BC3D /* WSAppDelegate.m in Sources */,
 				D0AC6ADF17CA60A60089BC3D /* main.m in Sources */,
 				D0AC6AE917CA60A60089BC3D /* WSViewController.m in Sources */,
